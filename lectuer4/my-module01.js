@@ -1,7 +1,7 @@
 //module
 let dataX = "Hello ..."
 
-const SAU = 'souteast asia university';
+const SAU = 'Souteast asia university';
 
 function showWow(){
     console.log("wow wow wow");
@@ -9,7 +9,7 @@ function showWow(){
 
 
 //เป็นการสร้าง module แบบ commonjs(แบบเก่า)
-Module.export = {
+module.export = {
     dataX, SAU, showWow
 };
 
